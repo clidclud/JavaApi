@@ -1,5 +1,3 @@
-package HW6;
-
 public class Laptops {
     private String name;
     private String cpu;
@@ -29,34 +27,52 @@ public class Laptops {
     }
 
     public String getName(){
+
         return  name;
+
         }
     public String getCpu(){
         return cpu;
         }
     public String getGraphic(){
+
         return graphic;
+
         }
     public String getRam(){
+
         return ram;
+
         }
     public String getSsd(){
+
         return ssd;
+
         }
     public String getDiagonal(){
+
         return diagonal;
+
         }
     public String getScreenRefreshRate(){
+
         return screenRefreshRate;
+
         }
     public String getBatteryLife(){
+
         return batteryLife;
+
         }
     public String getWeight(){
+
         return weight;
+
         }
     public String getPrice(){
+
         return price;
+
         }
 
     @Override

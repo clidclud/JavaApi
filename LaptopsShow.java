@@ -1,5 +1,3 @@
-package HW6;
-
 import java.util.*;
 
 public class LaptopsShow {
