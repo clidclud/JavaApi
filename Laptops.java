@@ -12,7 +12,7 @@ public class Laptops {
 
     public Laptops(String name, String cpu, String graphic,
                    String ram, String ssd, String diagonal, String screenRefreshRate,
-                   String batteryLife, String weight, String price){
+                   String batteryLife, String weight, String price) {
 
         this.name = name;
         this.cpu = cpu;
@@ -26,57 +26,48 @@ public class Laptops {
         this.price = price;
     }
 
-    public String getName(){
+    public String getName() {
+        return name;
+    }
 
-        return  name;
-
-        }
-    public String getCpu(){
+    public String getCpu() {
         return cpu;
-        }
-    public String getGraphic(){
+    }
 
+    public String getGraphic() {
         return graphic;
+    }
 
-        }
-    public String getRam(){
-
+    public String getRam() {
         return ram;
+    }
 
-        }
-    public String getSsd(){
-
+    public String getSsd() {
         return ssd;
+    }
 
-        }
-    public String getDiagonal(){
-
+    public String getDiagonal() {
         return diagonal;
+    }
 
-        }
-    public String getScreenRefreshRate(){
-
+    public String getScreenRefreshRate() {
         return screenRefreshRate;
+    }
 
-        }
-    public String getBatteryLife(){
-
+    public String getBatteryLife() {
         return batteryLife;
+    }
 
-        }
-    public String getWeight(){
-
+    public String getWeight() {
         return weight;
+    }
 
-        }
-    public String getPrice(){
-
+    public String getPrice() {
         return price;
-
-        }
+    }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Название: " + name + "\n"
                 + "Процессор: " + cpu + "\n"
                 + "Графика: " + graphic + "\n"

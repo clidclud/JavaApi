@@ -176,7 +176,7 @@ public class LaptopsShow {
 
         HashSet<Laptops> hashSet = new HashSet<>(Arrays.asList(laptop1, laptop2, laptop3, laptop4,
                 laptop5, laptop6, laptop7, laptop8, laptop9, laptop10));
-                
+
         filter(hashSet);
     }
 }
